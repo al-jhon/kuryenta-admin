@@ -1,19 +1,10 @@
+<!-- src\pages\ErrorNotFound.vue -->
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
-    <div>
-      <div style="font-size: 30vh">404</div>
-
-      <div class="text-h2" style="opacity: 0.4">Oops. Nothing here...</div>
-
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
+  <q-page class="flex flex-center">
+    <div class="text-center">
+      <div class="text-h1 text-weight-thin text-amber q-mb-md">404</div>
+      <div class="text-h5 q-mb-lg">Page not found</div>
+      <q-btn color="amber" text-color="dark" label="Go to Dashboard" to="/" />
     </div>
-  </div>
+  </q-page>
 </template>
